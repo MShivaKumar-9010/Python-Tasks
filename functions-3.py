@@ -32,7 +32,6 @@ mul_table()
 
 Section 2: Functions With Parameters
 # 5. Write a function greet(name) that accepts a name and prints a greeting message.
-
 Example:
 Input: Ravi
 Output: Hello Ravi
@@ -110,8 +109,7 @@ def cal_bill(item,price,quantity):
     print("item:",item,total_bill)
 cal_bill("mobile",10000,2)
 
-# 15. Create a function employee_details(name, department, salary).
-Call the function using positional arguments and display the employee details.
+# 15. Create a function employee_details(name, department, salary).Call the function using positional arguments and display the employee details.
 
 def emp_details(name,dept,sal):
     print("name:",name,"dept:",dept,"sal:",sal)
@@ -120,10 +118,10 @@ emp_details("bablu","testing",25000)
 
 Section 5: Default Arguments
 # 16. Create a function greet(name, message="Good Morning").
-Call the function:
-By passing only the name.
-By passing both name and message.
-Observe the difference in output.
+# Call the function:
+# By passing only the name.
+# By passing both name and message.
+# Observe the difference in output.
 
 def greet(name,message="Good Morning"):
     print("name:",name,message)
@@ -133,10 +131,10 @@ def greet(name,message="Good Morning"):
 greet("anji","Good Evening")
 
 # 17. Create a function calculate_simple_interest(principal, rate=5, time=2) that returns simple interest.
-Call the function using:
-Only principal
-Principal and rate
-Principal, rate, and time
+# Call the function using:
+# Only principal
+# Principal and rate
+# Principal, rate, and time
 
 def cal_simple_interest(principal,rate,time):
     interset=principal*rate*time/100
@@ -153,16 +151,15 @@ def cal_simple_interest(principal=10000,rate=6,time=5):
     return"interest:",interest
 print(cal_simple_interest(10000))
 
+
 Section 6: Keyword Arguments
-# 18. Create a function student_details(name, age, course).
-Call the function using keyword arguments in a different order.
+# 18. Create a function student_details(name, age, course).Call the function using keyword arguments in a different order.
 
 def std_details(name,age,course):
     print(name,age,course)
 std_details(name="mani",age=22,course="cse")
 
-# 19. Create a function product_details(product, price, quantity) that returns the total price.
-Call the function using keyword arguments in different orders.
+# 19. Create a function product_details(product, price, quantity) that returns the total price.Call the function using keyword arguments in different orders.
 
 def product_details(product,price,quantity):
     total_price=price*quantity
@@ -172,14 +169,14 @@ product_details(product="earbuds",price=950,quantity=2)
 
 Section 7: Mixed Challenge — All Concepts
 # 20. Create a function calculate_salary(name, basic_salary, bonus=5000).
-The function should:
-Accept name and basic_salary.
-Have a default value of 5000 for bonus.
-Calculate the total salary.
-Return the total salary.
-Call the function once using positional arguments.
-Call it again using keyword arguments.
-Call it a third time by using the default value for bonus.
+# The function should:
+# Accept name and basic_salary.
+# Have a default value of 5000 for bonus.
+# Calculate the total salary.
+# Return the total salary.
+# Call the function once using positional arguments.
+# Call it again using keyword arguments.
+# Call it a third time by using the default value for bonus.
 
 def cal_sal(name,basic_sal,bonus=5000):
     total_sal=basic_sal+bonus
