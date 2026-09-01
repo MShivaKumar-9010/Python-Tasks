@@ -98,10 +98,12 @@ print(rev_str(s))
 
 def palindrome(s):
     if len(s)<=1:
-        return s
-    return s[-1]+palindrome(s[:-1])
+        return true
+    if s[0]!=s[-1]
+        return false
+    return palindrome(s[1:-1])
 s="madam"
-if s==palindrome(s):
+if palindrome(s):
     print("palindrome")
 else:
     print("not a palindrome")
